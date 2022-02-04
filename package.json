@@ -1,0 +1,41 @@
+{
+  "name": "celsius_apis",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "server": "node ./bin/www",
+    "start": "nodemon ./bin/www"
+  },
+  "author": "Syed Azeem Haider",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.2",
+    "await-to-js": "^2.0.1",
+    "bcrypt": "~3.0.6",
+    "bcrypt-promise": "^2.0.0",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "dotenv": "^4.0.0",
+    "express": "~4.15.5",
+    "express-fileupload": "^1.1.6",
+    "gravatar": "^1.8.0",
+    "jade": "~1.11.0",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.0",
+    "mysql2": "^1.5.1",
+    "nodemailer": "^6.4.2",
+    "parse-error": "^0.2.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^3.0.1",
+    "sequelize": "^4.44.3",
+    "sequelize-cli": "^3.2.0",
+    "sequelize-paginate": "^1.1.6",
+    "serve-favicon": "~2.4.5",
+    "uniqid": "^5.2.0",
+    "validator": "^9.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
